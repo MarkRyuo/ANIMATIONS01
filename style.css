@@ -80,6 +80,9 @@ main {
 
 @keyframes spin-box-1 {
   from {
-    transform: rotate();
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3);
   }
 }
