@@ -22,6 +22,7 @@ main {
   animation-duration: 2s;
   animation-direction: alternate;
 
+  transition: spin 2s;
 }
 
 
