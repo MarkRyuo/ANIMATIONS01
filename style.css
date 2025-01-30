@@ -75,7 +75,7 @@ main {
 /* ? Box-1 */
 
 .box-1 {
-  transform: rotate(20deg);  /**/
+  transform: rotate(20deg);  /** Normal State*/
 
   animation-name: spin-box-1;
   animation-duration: 2s;
@@ -83,8 +83,8 @@ main {
 }
 
 @keyframes spin-box-1 {
-  from {
-    transform: rotate(0deg);
+  from { /** Start State */
+    transform: rotate(0deg); 
   }
   to {
     transform: rotate(360deg);
