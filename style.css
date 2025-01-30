@@ -84,7 +84,7 @@ main {
 
 @keyframes spin-box-1 {
   from { /** Start State */
-    transform: rotate(0deg); 
+    transform: rotate(10deg); 
   }
   to {
     transform: rotate(360deg);
