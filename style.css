@@ -28,11 +28,11 @@ main {
 
 @keyframes spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(0.5, 0.3);
     background-color: #ca2020;
   }
   to {
     transform: rotate(360deg);
-    border-radius: ;
+    border-radius: 50px;
   }
 }
