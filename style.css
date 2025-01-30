@@ -17,7 +17,11 @@ main {
   border-color: #fff;
   border-style: solid;
 
+  transform: translate(200px, 400px);
+
   animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 
@@ -27,6 +31,6 @@ main {
     transform: rotate(0 deg);
   }
   to {
-    transform: rotate();
+    transform: rotate(360 deg);
   }
 }
