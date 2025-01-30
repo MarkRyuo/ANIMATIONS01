@@ -24,6 +24,9 @@ main {
 
 @keyframes spin {
   from {
+    transform: rotate(0 deg);
+  }
+  to {
     transform: rotate();
   }
 }
