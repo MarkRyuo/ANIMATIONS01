@@ -19,7 +19,7 @@ main {
 
   animation-name: spin;
   animation-iteration-count: infinite;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-direction: alternate;
 
   transition: spin 2s;
