@@ -6,7 +6,7 @@ main {
   height: 500px;
   display: flex;
   align-items: center;
-  
+  justify-content: center;
 }
 
 
@@ -16,4 +16,14 @@ main {
   border-width: 1px;
   border-color: #fff;
   border-style: solid;
+
+  animation-name: spin;
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotate();
+  }
 }
