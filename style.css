@@ -21,8 +21,16 @@ main {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-play-state:paused;
 
-  transition: spin 2s;
+
+  transition: spin 0.15s;
+}
+
+.box:hover {
+  animation-play-state: running;
 }
 
 
