@@ -75,5 +75,11 @@ main {
 /* ? Box-1 */
 
 .box-1 {
-  transform: rotate(); 
+  transform: rotate(20deg); 
+}
+
+@keyframes spin-box-1 {
+  from {
+    transform: rotate();
+  }
 }
