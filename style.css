@@ -78,10 +78,10 @@ main {
   transform: rotate(10deg);  /** Normal State*/
 
   animation-name: spin-box-1;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-  
+  animation-duration: 4s;
 }
 
 @keyframes spin-box-1 {
