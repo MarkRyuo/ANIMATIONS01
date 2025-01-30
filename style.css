@@ -80,8 +80,8 @@ main {
   animation-name: spin-box-1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-
-  transition: spin-box-1 0.1;
+  animation-timing-function: ea;
+  
 }
 
 @keyframes spin-box-1 {
