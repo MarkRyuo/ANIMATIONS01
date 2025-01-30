@@ -17,8 +17,6 @@ main {
   border-color: #fff;
   border-style: solid;
 
-  transform: translate(200px, 100px);
-
   animation-name: spin;
   animation-duration: 3s;
   animation-iteration-count: infinite;
