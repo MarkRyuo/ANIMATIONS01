@@ -82,12 +82,13 @@ main {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 4s;
-  animation-delay: 2s;
+  animation-delay: s;
 }
 
 @keyframes spin-box-1 {
   from { /** Start State */
-    transform: rotate(0deg); 
+    transform: rotate(20deg);
+    transform: scale(0.1);
   }
   to {
     transform: rotate(360deg);
