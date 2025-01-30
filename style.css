@@ -75,7 +75,7 @@ main {
 /* ? Box-1 */
 
 .box-1 {
-  transform: rotate(10deg);  /** Normal State*/
+  transform: rotate(20deg);  /** Normal State*/
 
   animation-name: spin-box-1;
   animation-duration: 2s;
