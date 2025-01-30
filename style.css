@@ -80,7 +80,7 @@ main {
   animation-name: spin-box-1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: ea;
+  animation-timing-function: ease-in;
   
 }
 
@@ -91,5 +91,8 @@ main {
   to {
     transform: rotate(360deg);
     background-color: #8eff72;
+    border-width: 10px;
+    border-radius: 50px;
+;
   }
 }
