@@ -10,6 +10,7 @@ main {
 .box {
   width: 100px;
   height: 100px;
-  borde
+  border-width: 1px;
   border-color: #fff;
+  border-style: ;
 }
