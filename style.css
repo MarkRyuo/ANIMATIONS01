@@ -75,18 +75,21 @@ main {
 /* ? Box-1 */
 
 .box-1 {
-  transform: rotate(20deg);  /** Normal State*/
+  transform: rotate(10deg);  /** Normal State*/
 
   animation-name: spin-box-1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+
+  transition: spin-box-1 0.1;
 }
 
 @keyframes spin-box-1 {
   from { /** Start State */
-    transform: rotate(10deg); 
+    transform: rotate(0deg); 
   }
   to {
     transform: rotate(360deg);
+    background-color: #8eff72;
   }
 }
