@@ -18,17 +18,21 @@ main {
   border-style: solid;
 
   animation-name: spin;
-  animation-duration: 3s;
   animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+
 }
 
 
 
 @keyframes spin {
   from {
-    transform: rotate(0 deg);
+    transform: rotate(0deg);
+    background-color: #ca2020;
   }
   to {
-    transform: rotate(360 deg);
+    transform: rotate(360deg);
+    border-radius: ;
   }
 }
