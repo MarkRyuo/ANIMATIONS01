@@ -234,7 +234,7 @@ main {
   }
   
   20% {
-    transform: scale(1.2);
+    background-color: #d4ff5f;
   }
 
   30% {
