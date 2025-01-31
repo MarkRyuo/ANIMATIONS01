@@ -165,5 +165,10 @@ main {
 }
 
 .box-3::before {
-  top: -;
+  top: -50px;
+}
+
+.box-3::after{
+  top: 0 ;
+  left: -50px;
 }
