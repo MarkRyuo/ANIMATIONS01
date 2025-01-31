@@ -240,7 +240,8 @@ main {
 
   30% {
     background-color: #ff0000;
-    border-width: 50px8;
+    border-width: 50px;
+    border-radius: 20px;
   }
 
   100% {
