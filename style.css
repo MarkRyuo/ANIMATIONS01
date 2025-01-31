@@ -222,6 +222,7 @@ main {
   border-color: #d4ff5f;
   border-width: 4px;
 
+  animation-name: ;
 
 }
 
@@ -233,4 +234,6 @@ main {
   20% {
     transform: rotate(25deg) scale(1.2);
   }
+
+
 }
