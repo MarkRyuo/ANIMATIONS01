@@ -227,6 +227,9 @@ main {
 
 @keyframes spin-box-4 {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) ;
   }
-}
+  
+  20% {
+    transform: rotate(25deg) scale(1.2);
+  }
