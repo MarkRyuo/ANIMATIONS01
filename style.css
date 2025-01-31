@@ -154,7 +154,7 @@ main {
   position: relative;
 }
 
-/* .box-3::before, 
+.box-3::before, 
 .box-3::after {
   content: ' ';
   width: 100px;
@@ -162,18 +162,18 @@ main {
   position: absolute;
   background-color: #ff0000;
   border-radius: 50%;
-} */
+}
 
-/* .box-3::before {
+.box-3::before {
   top: -50px;
 }
 
 .box-3::after{
   top: 0 ;
   left: -50px;
-} */
+}
 
-.box-3:before {
+/* .box-3:before {
   content: '';
   width: 100px;
   height: 100px;
@@ -189,4 +189,4 @@ main {
   height: 100px;
   bottom: -20px;
   position: absolute;
-}
+} */
