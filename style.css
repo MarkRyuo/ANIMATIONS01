@@ -137,7 +137,7 @@ main {
     border-radius: 10px;
   }
   50% {
-    transform: scale(1.6);
+    transform: scale(1.6) rotate(45deg);
   }
   100% {
     transform: scale(1);
