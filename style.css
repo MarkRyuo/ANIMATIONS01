@@ -226,6 +226,7 @@ main {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
+  anima
 
 }
 
@@ -240,7 +241,7 @@ main {
 
   30% {
     background-color: #ff0000;
-    border-width: 0px 50px 50px px;
+    border-width: 0px 50px 50px 50px;
     border-radius: 20px;
   }
 
