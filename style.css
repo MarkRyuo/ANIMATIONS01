@@ -227,6 +227,6 @@ main {
 
 @keyframes spin-box-4 {
   0% {
-    transform: rotate((0deg););
+    transform: rotate(0deg);
   }
 }
