@@ -100,3 +100,34 @@ main {
     border-radius: 50px;
   }
 }
+
+/* ? Box-2 */
+
+.box-2 {
+  background-color: #8f5fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff72d5;
+
+  transform: scale(1.2, 1.4);
+
+}
+
+@keyframes spin-box-2 {
+  0% {
+    transform: scale(1.2, 1.4);
+  }
+  20% {
+    background-color: #ff72d5;
+  }
+  30% {
+    border-color: #8f5fff;
+    border-width: 5px;
+  }
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
