@@ -219,18 +219,4 @@ main {
 .box-4 {
   background-color: #00b7ff;
   transform: rotate(45deg);
-  position: relative;
-}
-
-.box-4::before, .box-4::after {
-
-  content: '';
-  width: 40px;
-  height: 50px;
-  position: absolute;
-  background-color: #00b7ff;
-}
-
-.box-4::before {
-  top: -30px;
 }
