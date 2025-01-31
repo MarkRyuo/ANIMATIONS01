@@ -111,6 +111,12 @@ main {
 
   transform: scale(1.2, 1.4);
 
+  animation-name: spin-box-2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
 }
 
 @keyframes spin-box-2 {
@@ -123,6 +129,7 @@ main {
   30% {
     border-color: #8f5fff;
     border-width: 5px;
+    border-radius: 10px;
   }
   50% {
     transform: scale(1.6);
