@@ -176,8 +176,16 @@ main {
 .box-3:before {
   content: '';
   width: 100px;
-  
+  height: 100px;
   background-color: green;
   position: absolute;
-  top: -100px ;
+  top: -10px ;
+}
+
+.box-3:after {
+  content: ' ';
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  bottom: -;
 }
