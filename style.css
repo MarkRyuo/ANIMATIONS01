@@ -223,7 +223,8 @@ main {
   border-width: 4px;
 
   animation-name: spin-box-4;
-  animation-duration: ;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 
 }
 
@@ -234,6 +235,10 @@ main {
   
   20% {
     transform: rotate(25deg) scale(1.2);
+  }
+
+  30% {
+    transform: rotate(45deg);
   }
 
 
