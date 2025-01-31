@@ -164,17 +164,18 @@ main {
   border-radius: 50%;
 } */
 
-.box-3::before {
+/* .box-3::before {
   top: -50px;
 }
 
 .box-3::after{
   top: 0 ;
   left: -50px;
-}
+} */
 
 .box-3:before {
+  content: '';
   background-color: green;
   position: absolute;
-  top: ;
+  top: -100px ;
 }
