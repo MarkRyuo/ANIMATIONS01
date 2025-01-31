@@ -187,5 +187,6 @@ main {
   background-color: blue;
   width: 100px;
   height: 100px;
-  bottom: -;
+  bottom: -20px;
+  position: absolute;
 }
