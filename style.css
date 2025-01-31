@@ -175,7 +175,19 @@ main {
 
 @keyframes heart-beat {
   0% {
-    transform: scale(1);
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.4);
   }
 }
 
