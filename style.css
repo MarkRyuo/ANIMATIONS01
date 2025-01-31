@@ -148,8 +148,19 @@ main {
 /* ? Box-3 */
 
 .box-3 {
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 100px;
-
   border: none;
+  background-color: #ff0000;
+  transform: rotate(40deg);
+  position: relative;
+}
+
+.box-3::before, ::after {
+  content: ' ';
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: #ff0000;
+
+  top: -40px;
+  border-radius: 100px;
 }
