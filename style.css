@@ -273,7 +273,7 @@ main {
     transform: rotateX(0) rotateY(360deg) rotateZ(0);
   }
   100% {
-    transform: rotateX(0) rotateY(0) rotateZ(0);
+    transform: rotateX(360) rotateY(0) rotateZ(0);
   }
 }
 
