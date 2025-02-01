@@ -260,5 +260,11 @@ main {
   box-shadow: 0px 0px 30px 10px #48abe0,
               0px 0px 50px 15px #ffffff;
 
-}   
+}
+
+@keyframes spin-boc-5 {
+  0% {
+    transform: rotateX('angle') rotateY('angle') rotateZ('angle');
+  }
+}
 
