@@ -264,7 +264,7 @@ main {
 
 @keyframes spin-boc-5 {
   0% {
-    transform: rotateX('angle') rotateY('angle') rotateZ('angle');
+    transform: rotateX('angle') rotateY('angle') rotateZ(0);
   }
 }
 
