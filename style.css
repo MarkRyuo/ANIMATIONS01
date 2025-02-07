@@ -45,15 +45,8 @@ body {
   0% {
     transform: translate(-100px, 0px); /* x, y */
   }
-  30% {
-    transform: translate(-50px, 0px);
-  }
-  50% {
-    transform: translate(-100px, 0px) rotate(360deg);
-    
-  }
-
+  
   100% {
-    
+    transform: translate(0px, 0px) rotate(360deg);
   }
 }
