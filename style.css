@@ -23,4 +23,11 @@ body {
   height: 100px;
   border: 1px solid #34f5b5;
   box-shadow: 5px 5px 12px 20px #68fccb, 5px 5px 30px 30px #7598fa;
+
+
+}
+
+
+@keyframes box-animation {
+  
 }
