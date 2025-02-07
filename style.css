@@ -29,5 +29,7 @@ body {
 
 
 @keyframes box-animation {
-  
+  to {
+    transform: rotateY('0px');
+  }
 }
