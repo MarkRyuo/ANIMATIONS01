@@ -43,11 +43,12 @@ body {
 
 @keyframes box-animation {
   0% {
-    transform: translate(-100px, 0px) scale(1.5); /* x, y */ /* Start*/
+    transform: translate(-100px, 0px) scale(10); /* x, y */ /* Start*/
   }
 
   50% {
     background-color: #ff4949;
+    transition: background-color 0.15s;
   }
 
   100% {
