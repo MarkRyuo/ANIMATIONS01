@@ -24,12 +24,30 @@ body {
   border: 1px solid #34f5b5;
   box-shadow: 5px 5px 12px 20px #68fccb, 5px 5px 30px 30px #7598fa;
 
-
+  animation-name: box-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
+
+/* @keyframes box-animation {
+  to {
+    transform: translateY(0px);
+  }
+  from {
+    transform:  translateY(-100px);
+    scale: 1.5;
+  }
+} */
 
 
 @keyframes box-animation {
   to {
-    transform: rotateY('0px');
+    transform: translateY(0px);
+  }
+
+  from {
+    transform: translateY(-100px);
+    scale: 1.5;
   }
 }
