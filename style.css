@@ -26,7 +26,7 @@ body {
 
   animation-name: box-animation;
   animation-duration: 2s;
-  /* animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 }
 
 
@@ -43,10 +43,14 @@ body {
 
 @keyframes box-animation {
   0% {
-    transform: translate(-100px, 0px); /* x, y */ /* Start*/
+    transform: translate(-100px, 0px) scale(1.5); /* x, y */ /* Start*/
+  }
+
+  50% {
+    background-color: #ff4949;
   }
 
   100% {
-    transform: translate(100px, 0px) rotate(360deg); /* x, y */ /* End */
+    transform: translate(100px, 0px) scale(1) rotate(360deg); /* x, y */ /* End */
   }
 }
