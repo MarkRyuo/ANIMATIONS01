@@ -43,7 +43,7 @@ body {
 
 @keyframes box-animation {
   0% {
-    transform: translate(-100px, 0px);
+    transform: translate(-100px, 0px); /* x, y */
   }
 
   50% {
