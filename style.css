@@ -17,12 +17,26 @@ body {
   width: 50vw;
   height: 50vh;
   background: linear-gradient(0deg, #ff0000 36%, #ffffff 86%);
+
+  animation: boxes 2s infinite;
 }
 
 .box-1 {
   background: linear-gradient(0deg, #0080ff 35%, #ffffff 83%);
   width: 50vw;
   height: 50vh;
+}
+
+
+@keyframes boxes {
+  0% {
+    transform: translate(100px, 0px);
+  }
+
+
+  100% {
+    transform: translate(-100px, 0px);
+  }
 }
 
 
