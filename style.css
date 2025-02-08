@@ -23,7 +23,8 @@ body {
   content: " ";
   position: absolute;
   width: 50%;
-  height: ;
+  height: 100vh;
+  right: 100px;
 
 
 }
