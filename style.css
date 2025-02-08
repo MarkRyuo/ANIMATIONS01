@@ -15,5 +15,15 @@ body {
   border: 1px solid red;
   width: 50%;
   height: 100vh;
-  background-color: ;
+  background-color: red;
+  position: relative;
+}
+
+.box::before {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: ;
+
+
 }
