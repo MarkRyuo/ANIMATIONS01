@@ -14,9 +14,9 @@ body {
 }
 
 .box {
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
-  background: linear-gradient(0deg, #ff0000 36%, #ffffff 86%);
+  background-color: #ff0000;
 
   animation: boxes 5s infinite;
   animation-fill-mode: forwards;
@@ -39,7 +39,7 @@ body {
 
 
 .box-1 {
-  background: linear-gradient(0deg, #0080ff 36%, #ffffff 86%);
+  background-color: #0080ff;
   width: 50vw;
   height: 100vh;
 
@@ -50,7 +50,13 @@ body {
 
 }
 
+.box-1 {
+  --mask:
+    radial-gradient(28.56px at 39.95px 50%, #000 99%, #0000 101%) 0 calc(50% - 34px)/100% 68px,
+    radial-gradient(28.56px at -22.95px 50%, #0000 99%, #000 101%) 17px 50%/100% 68px repeat-y;
+  -webkit-mask: var(--mask);
 
+}
 .box-1-1{
   position: absolute;
   top: 0;
