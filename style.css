@@ -28,8 +28,16 @@ body {
   width: 50vw;
   height: 50vh;
 
-  animation: boxes-1 5s;
-  animation-fill-mode: forwards;
+  /* animation: boxes-1 5s; */
+  /* animation-fill-mode: forwards; */
+
+  position: relative;
+}
+
+
+.box-1-1{
+  position: absolute;
+  top: 0;
 }
 
 
@@ -55,8 +63,4 @@ body {
   }
 
 
-
-
-
-
-
+}
