@@ -14,16 +14,20 @@ body {
 }
 
 .box {
-  border: 1px solid red;
   width: 50vw;
   height: 50vh;
-  background-color: red;
+  background: linear-gradient(0deg, #ff0000 36%, #ffffff 86%);
 }
 
 .box-1 {
-  background-color: blue;
+  background: linear-gradient(0deg, #0080ff 35%, #ffffff 83%);
   width: 50vw;
   height: 50vh;
 }
+
+
+
+
+
 
 
