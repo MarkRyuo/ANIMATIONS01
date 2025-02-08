@@ -8,13 +8,13 @@ body {
 
 .container {
   border: 5px solid green;
-  height: 100vh;  
+  height: 50vh;  
 }
 
 .box {
   border: 1px solid red;
   width: 50%;
-  height: 100vh;
+  height: 50vh;
   background-color: red;
   position: relative;
 }
@@ -23,8 +23,8 @@ body {
   content: " ";
   position: absolute;
   width: 50%;
-  height: 100vh;
+  height: 50vh;
   background-color: blue;
   
-  right: 500px;
+  right: -900px;
 }
