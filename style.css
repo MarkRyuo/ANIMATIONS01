@@ -8,7 +8,9 @@ body {
 
 .container {
   border: 5px solid green;
-  height: 50vh;  
+  height: 50vh;
+  
+  display: flex;
 }
 
 .box {
@@ -18,9 +20,10 @@ body {
   background-color: red;
 }
 
-.box1 {
+.box-1 {
   background-color: blue;
-  
+  width: 50vw;
+  height: 50vh;
 }
 
 
