@@ -24,7 +24,7 @@ body {
   position: absolute;
   width: 50%;
   height: 100vh;
-  right: 100px;
-
-
+  background-color: blue;
+  
+  right: 500px;
 }
