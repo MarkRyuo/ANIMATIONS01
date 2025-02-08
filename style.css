@@ -18,13 +18,18 @@ body {
   height: 50vh;
   background: linear-gradient(0deg, #ff0000 36%, #ffffff 86%);
 
-  animation: boxes 2s infinite;
+  animation: boxes 5s;
+  animation-fill-mode: forwards;
+  
 }
 
 .box-1 {
   background: linear-gradient(0deg, #0080ff 35%, #ffffff 83%);
   width: 50vw;
   height: 50vh;
+
+  animation: boxes-1 5s;
+  animation-fill-mode: forwards;
 }
 
 
@@ -35,9 +40,19 @@ body {
 
 
   100% {
-    transform: translate(-100px, 0px);
+    transform: translate(-900px, 0px);
   }
 }
+
+
+@keyframes boxes-1 {
+  0% {
+    transform: translate(100px, 0px);
+  }
+
+  100% {
+    transform: translate(900px, 0px);
+  }
 
 
 
