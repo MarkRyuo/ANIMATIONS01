@@ -18,13 +18,3 @@ body {
   background-color: red;
   position: relative;
 }
-
-.box::before {
-  content: " ";
-  position: absolute;
-  width: 50%;
-  height: 50vh;
-  background-color: blue;
-  
-  right: 0;
-}
