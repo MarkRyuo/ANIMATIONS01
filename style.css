@@ -63,7 +63,7 @@ main {
 }
 
 
-@media (max-width: 768px) and (min-width: 400px) {
+@media (max-width: 768px) {
   
   .starburst, .starburst-small {
     animation: starburst-small 5s infinite;
