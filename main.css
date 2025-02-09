@@ -7,8 +7,16 @@
   padding: 0;
 }
 
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 7px;
+}
+
 nav, main, aside, footer {
   border: 1px solid red;
   width: 100%;
   height: 100px;
 }
+
