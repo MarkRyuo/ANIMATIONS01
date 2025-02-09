@@ -50,16 +50,20 @@ footer {
 } */
 
 
+
+
 nav {
   grid-area: Nav;
 }
 
 aside {
   grid-area: Aside;
+  height: 100%;
 }
 
 main {
   grid-area: Main;
+  height: 100%;
 }
 
 footer {
