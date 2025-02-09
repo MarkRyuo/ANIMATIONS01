@@ -13,6 +13,14 @@ body {
   grid-template-rows: repeat(5, 1fr);
   column-gap: 7px;
   row-gap: 7px;
+
+  grid-template-areas: 
+    "Nav Nav Nav Nav Nav"
+    "Aside Main Main Main"
+  
+  
+  
+  ;
 }
 
 nav, main, aside, footer {
