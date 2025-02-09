@@ -26,15 +26,15 @@ main {
 @keyframes starburst {
 
   0% {
-    transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1) translateX(-200px);
   }
 
   50% {
-    transform: rotate(180deg) scale(2.5);
+    transform: rotate(180deg) scale(2.5) translateX(0px);
   }
 
   100% {
-    transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1) translateX(200px);
   }
 
 }
