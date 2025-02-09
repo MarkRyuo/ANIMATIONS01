@@ -15,7 +15,7 @@ body {
   row-gap: 7px;
 
   grid-template-areas: 
-    "Nav Nav Nav Nav Nav Nav"
+    "Nav Nav Nav Nav Nav"
     "Aside Main Main Main Main"
     "Aside Main Main Main Main"
     "Aside Main Main Main Main"
