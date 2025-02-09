@@ -1,0 +1,92 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.container {
+  /* border: 5px solid green; */
+  height: 100vh;
+
+  display: flex;
+}
+
+.box {
+  width: 50vw;
+  height: 100vh;
+  background-color: #ff0000;
+
+  animation: boxes 5s infinite;
+  animation-fill-mode: forwards;
+
+  -mask: linear-gradient(90deg, #0000 32px, #000 0), radial-gradient(32px, #000 calc(100% - 1px), #0000) left/64px 59.2px;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+
+}
+
+.box {
+  --mask:
+    radial-gradient(28.56px at calc(100% - 39.95px) 50%, #000 99%, #0000 101%) 0 calc(50% - 34px)/100% 68px,
+    radial-gradient(28.56px at calc(100% + 22.95px) 50%, #0000 99%, #000 101%) calc(100% - 17px) 50%/100% 68px repeat-y;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+
+
+.box-1 {
+  background-color: #0080ff;
+  width: 50vw;
+  height: 100vh;
+
+  animation: boxes-1 5s infinite;
+  animation-fill-mode: forwards;
+
+  position: relative;
+
+}
+
+
+.box-1 {
+  --mask:
+    radial-gradient(28.56px at 39.95px 50%, #000 99%, #0000 101%) 0 calc(50% - 34px)/100% 68px,
+    radial-gradient(28.56px at -22.95px 50%, #0000 99%, #000 101%) 17px 50%/100% 68px repeat-y;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+}
+
+.box-1-1 {
+  position: absolute;
+  top: 0;
+}
+
+
+@keyframes boxes {
+  0% {
+    transform: translate(-100px, 0px);
+  }
+
+
+  100% {
+    transform: translate(-900px, 0px);
+    opacity: 0;
+  }
+}
+
+
+@keyframes boxes-1 {
+  0% {
+    transform: translate(100px, 0px);
+  }
+
+  100% {
+    transform: translate(900px, 0px);
+    opacity: 0;
+  }
+
+
+}
