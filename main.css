@@ -9,17 +9,25 @@
 
 body {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:
+  
+  
+  
+  
+  
+  
+  ;
   column-gap: 7px;
   row-gap: 7px;
 
   grid-template-areas: 
-    "Nav Nav Nav Nav Nav"
-    "Aside Main Main Main"
-  
-  
-  
+    "Nav Nav Nav Nav Nav Nav"
+    "Aside Main Main Main Main"
+    "Aside Main Main Main Main"
+    "Aside Main Main Main Main"
+    "Aside Main Main Main Main"
+    "Aside Footer Footer Footer Footer"
   ;
 }
 
