@@ -13,6 +13,7 @@ body {
   grid-template-rows: repeat(5, 1fr);
   column-gap: 7px;
   row-gap: 7px;
+  height: 100vh;
 
   grid-template-areas: 
     "Nav Nav Nav Nav Nav"
