@@ -31,6 +31,7 @@ main {
 
   50% {
     transform: rotate(180deg) scale(2.5) translateX(0px);
+    background-color: red;
   }
 
   100% {
