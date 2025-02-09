@@ -19,13 +19,13 @@ main {
     background-color: yellow;
 
     animation: starburst 5s infinite;
-    animation-play-state: running;
+    animation-play-state: paused;
 
 }
 
 
-.starburst:hover {
-  animation-play-state: paused;
+.starburst:hover, .starburst-small:hover {
+  animation-play-state: running;
 }
 
 
