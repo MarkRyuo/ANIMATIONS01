@@ -1,6 +1,14 @@
 
 
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
 
 .starburst {
     width: 200px;
