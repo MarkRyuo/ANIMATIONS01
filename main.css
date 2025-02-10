@@ -40,10 +40,12 @@ nav, aside, main, footer {
 
 nav {
   grid-area: Nav;
+  height: 100%;
 }
 
 .aside-left {
   grid-area: Aside-left;
+  height: 100%;
 }
 
 main {
