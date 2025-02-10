@@ -67,7 +67,7 @@ footer {
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
-
+  
 }
 
 /*laptops, desktops*/
@@ -77,7 +77,15 @@ footer {
 
 /*tablets, ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 1024px) {
-
+  body {
+    grid-template-areas:
+        "Nav Nav Nav Nav Nav"
+        "Aside-left Main Main Main Aside-right"
+        "Aside-left Main Main Main Aside-right"
+        "Aside-left Main Main Main Aside-right"
+        "Footer Footer Footer Footer Footer"
+      ;
+  }
 }
 
 /*tablets, ipads (landscape)*/
