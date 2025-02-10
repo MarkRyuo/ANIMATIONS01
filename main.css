@@ -87,7 +87,9 @@ footer {
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
-  
+
 }
 /*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px)
+@media (min-width: 320px) and (max-width: 480px) {
+  
+}
