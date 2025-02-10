@@ -18,7 +18,8 @@ body {
 
 
   grid-template-areas: 
-  ""
+  "Nav Nav Nav Nav Nav"
+  "Aside-left Main Main "
   
   
   
