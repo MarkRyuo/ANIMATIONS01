@@ -30,5 +30,5 @@ nav {
 }
 
 .aside-left {
-  grid-
+  grid-area: aside-left;
 }
