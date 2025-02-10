@@ -77,8 +77,9 @@ footer {
 
 /*tablets, ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
 }
+
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
 /*low resolution tablets, mobiles (landscape)*/
