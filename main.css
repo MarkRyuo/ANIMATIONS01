@@ -40,3 +40,7 @@ main {
 .aside-right {
   grid-area: Aside-right;
 }
+
+footer {
+  grid-area: Footer;
+}
