@@ -36,3 +36,7 @@ nav {
 main {
   grid-area: Main;
 }
+
+.aside-right {
+  grid-area: Aside-right;
+}
