@@ -131,5 +131,18 @@ footer {
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 767px) {
-
+  body {
+    grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+    
+      grid-template-areas:
+        "Nav Nav Nav Nav Nav"
+        "Aside-left Aside-left Aside-left Aside-left Aside-left"
+        "Aside-right Aside-right Aside-right Aside-right Aside-right"
+        "Main Main Main Main Main"
+        "Main Main Main Main Main"
+        "Main Main Main Main Main"
+        "Footer Footer Footer Footer Footer"
+      ;
+  }
 }
