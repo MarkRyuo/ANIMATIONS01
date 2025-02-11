@@ -21,19 +21,15 @@ p {
 
   /* opacity: 0.8; */
 
-  animation: 3s move 1 ease-in-out;
+  animation: 3s move 1 ease-in-out forwards,
+  1s flicker infinite alternate 3s
+  ;
   animation-fill-mode: forwards;
   transition: all 1s ease-in-out;
 
 
 }
 
-p {
-  animation: 3s flicker infinite;
-  transition: flicker 1s ease-in-out;
-
-
-}
 
 
 @keyframes move {
