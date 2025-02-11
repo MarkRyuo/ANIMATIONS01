@@ -27,7 +27,7 @@ p {
 
   animation: 3s move 1 ease-in-out forwards,
   5s flicker infinite alternate 3s ease-in-out,
-  2s spacing infinite ease-in-out 8s  
+  3s spacing infinite ease-in-out 8s  
   ;
   transition: all 1s ease-in-out;
 
