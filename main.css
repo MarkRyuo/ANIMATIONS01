@@ -35,29 +35,11 @@ p {
   animation: 3s move 1 ease-in-out forwards,
   5s flicker infinite alternate 3s ease-in-out,
   3s spacing infinite ease-in-out 8s,
-  ;
+    ;
   transition: all 1s ease-in-out;
 
 
 }
-
-
-@keyframes color {
-  0% {
-    color: #fff ;
-  }
-
-  50% {
-    color: #00f7ff ;
-    text-shadow: 25px 0px 5px #fff;
-  }
-
-  100% {
-    color: #fff;
-    text-shadow: 30px 0px 10px #ff0000;
-  }
-}
-
 
 
 @keyframes move {
