@@ -21,7 +21,7 @@ p {
 
   /* opacity: 0.8; */
 
-  animation: 3s move alternate;
+  animation: 3s move ;
 }
 
 
@@ -33,7 +33,7 @@ p {
 
   50% {
     opacity: 0.5;
-    transform: scale(1) rotate();
+    transform: scale(1) rotate(180deg);
   }
 
   100% {
