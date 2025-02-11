@@ -49,10 +49,11 @@ p {
 
   50% {
     color: #ff0000 ;
+    text-shadow: 19px 0px 4px #fff;
   }
 
   100% {
-    color: ;
+    color: #fff;
     text-shadow: 19px 0px 4px #ff0000;
   }
 }
