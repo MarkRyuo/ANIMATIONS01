@@ -22,7 +22,7 @@ p {
   /* opacity: 0.8; */
 
   animation: 3s move 1 ease-in-out forwards,
-  1s flicker infinite alternate 3s ease-in-out;
+  5s flicker infinite alternate 3s ease-in-out;
   ;
   animation-fill-mode: forwards;
   transition: all 1s ease-in-out;
