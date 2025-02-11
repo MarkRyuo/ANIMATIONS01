@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /*  * * * * *  */
+  grid-template-rows: repeat(5, 1fr);
+
+  /* 
+    *
+    *
+    *
+    *
+    *
+  */
+
+
+  grid-template-areas:
+    "Nav Nav Nav Nav Nav"
+    "Aside-left Main Main Main Aside-right"
+    "Aside-left Main Main Main Aside-right"
+    "Aside-left Main Main Main Aside-right"
+    "Footer Footer Footer Footer Footer"
+  ;
+
+  gap: 10px 10px;
+
+  height: 100vh;
+}
+
+
+nav,
+aside,
+main,
+footer {
+  border: 2px solid white;
+  width: 100%;
+  height: 100px;
+}
+
+
+nav {
+  grid-area: Nav;
+  height: 100%;
+}
+
+.aside-left {
+  grid-area: Aside-left;
+  height: 100%;
+}
+
+main {
+  grid-area: Main;
+  height: 100%;
+}
+
+.aside-right {
+  grid-area: Aside-right;
+  height: 100%;
+}
+
+footer {
+  grid-area: Footer;
+  height: 100%;
+}
+
+
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-rows: repeat(7, 1fr);
+
+    grid-template-areas:
+      "Nav Nav Nav Nav Nav"
+      "Aside-left Aside-left Aside-left Aside-left Aside-left"
+      "Aside-right Aside-right Aside-right Aside-right Aside-right"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Footer Footer Footer Footer Footer"
+    ;
+  }
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    grid-template-areas:
+      "Nav Nav Nav Nav Nav"
+      "Aside-left Main Main Main Aside-right"
+      "Aside-left Main Main Main Aside-right"
+      "Aside-left Main Main Main Aside-right"
+      "Footer Footer Footer Footer Footer"
+    ;
+  }
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+    grid-template-areas:
+      "Nav Nav Nav Nav Nav"
+      "Aside-left Aside-left Aside-left Aside-left Aside-left"
+      "Aside-right Aside-right Aside-right Aside-right Aside-right"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Footer Footer Footer Footer Footer"
+    ;
+  }
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+    grid-template-areas:
+      "Nav Nav Nav Nav Nav"
+      "Aside-left Aside-left Aside-left Aside-left Aside-left"
+      "Aside-right Aside-right Aside-right Aside-right Aside-right"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Main Main Main Main Main"
+      "Footer Footer Footer Footer Footer"
+    ;
+  }
+}
