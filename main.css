@@ -17,5 +17,13 @@ p {
   
   letter-spacing: 5px;
   text-transform: uppercase;
-  word-spacing: ;
+  word-spacing: 30px;
+
+  opacity: 0.8;
+
+  animation: ;
 }
+
+
+@key
+
