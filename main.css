@@ -42,11 +42,6 @@ p {
     letter-spacing: 5rem;
   }
 
-  50% {
-    text-transform: uppercase;
-    transition: text-transform 1s ease-in-out;
-  }
-
   100% {
     opacity: 1;
     transform: scale(1);
