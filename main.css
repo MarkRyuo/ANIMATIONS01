@@ -29,8 +29,8 @@ p {
 }
 
 p {
-  animation: 3s flicker 1 ease-in-out;
-  transition: all 1s ease-in-out;
+  animation: 3s flicker infinite;
+  transition: flicker 1s ease-in-out;
 
 
 }
