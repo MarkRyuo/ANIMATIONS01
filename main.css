@@ -50,12 +50,12 @@ p {
 
   50% {
     color: #ff0000 ;
-    text-shadow: 19px 0px 4px #fff;
+    text-shadow: 19px 0px 5px #fff;
   }
 
   100% {
     color: #fff;
-    text-shadow: 19px 0px 4px #ff0000;
+    text-shadow: 19px 0px 10px #ff0000;
   }
 }
 
