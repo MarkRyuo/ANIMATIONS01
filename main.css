@@ -23,6 +23,9 @@ p {
 
   animation: 3s move 1 ease-in-out;
   animation-fill-mode: forwards;
+  transition: all 1s ease-in-out;
+
+
 }
 
 
@@ -39,3 +42,25 @@ p {
   }
 }
 
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  70% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
