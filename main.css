@@ -13,5 +13,7 @@
 
 p {
   font-size: 5rem;
-  font-weight: ;
+  font-weight: 600;
+  
+  letter-spacing: 5px;
 }
