@@ -73,4 +73,24 @@ p {
 }
 
 
-@keyframes spacing
+@keyframes spacing {
+  0% {
+    letter-spacing: 5px;
+  }
+
+  30% {
+    letter-spacing: 10px;
+  }
+
+  50% {
+    letter-spacing: 15px;
+  }
+
+  70% {
+    letter-spacing: 10px;
+  }
+  
+  100% {
+    letter-spacing: 5px;
+  }
+}
