@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Overpass", serif;
-
+  background-color: var();
 }
 
 
@@ -54,7 +54,7 @@ section {
   /* *Colors  */
 
   --clr-black-500: #000000;
-  --clr-lavender-purple: #E6E6FA
+  --clr-lavender-purple: #E6E6FA ;
 
 
 
