@@ -16,9 +16,12 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-template-areas: 
   "Nav Nav"
+  "Main Main"
+  "Main Main"
+  "Main Main"
   "Main Main"
   
   ;
