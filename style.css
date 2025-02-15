@@ -5,7 +5,8 @@
 nav {
   background-color: bisque;
   display: flex;
-  justify-content: c;
+  align-items: center;
+  height: ;
 }
 
 nav > div > img {
