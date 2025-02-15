@@ -33,7 +33,7 @@ main {
   border: 1px solid ;
   margin-top: 75px;
 
-  background-color: var(--cl);
+  background-color: var(--clr-white-500);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -56,7 +56,7 @@ section {
   /* *Colors  */
 
   --clr-black-500: #000000;
-  --clr-white-500: #ffffff
+  --clr-white-500: #fff
   --clr-lavender-purple: #E6E6FA ;
 
 
