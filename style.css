@@ -6,7 +6,12 @@ nav {
   background-color: bisque;
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 70px;
+}
+
+nav > div {
+  display: flex;
+  align-items: ;
 }
 
 nav > div > img {
