@@ -19,7 +19,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: 
   "Nav Nav"
-  
+  "Main Main"
   
   ;
 
