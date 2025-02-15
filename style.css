@@ -13,6 +13,7 @@ nav {
   align-items: center;
   width: 300px;
   justify-content: space-around;
+  border: 1px solid;
 }
 
 .nav-container > img {
