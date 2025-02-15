@@ -20,11 +20,13 @@ nav {
   z-index: 1000;
   top: 0;
   left: 0;
+  background-color: red;
 }
 
 main {
   grid-area: Main;
   border: 1px solid ;
+  margin-top: ;
 
 
   display: grid;
