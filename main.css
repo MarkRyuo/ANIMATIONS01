@@ -18,9 +18,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: 
-  "Nav Nav"
+  "Nav "
   "Main Main"
-  ""
   
   ;
 
