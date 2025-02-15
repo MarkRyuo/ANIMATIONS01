@@ -35,4 +35,10 @@ nav {
 main {
   grid-area: Main;
   border: 1px solid ;
+
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+
 }
