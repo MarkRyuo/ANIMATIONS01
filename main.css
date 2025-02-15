@@ -16,5 +16,10 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2,);
+  grid-template-rows: repeat(2, 1fr);
+  
+}
+
+nav {
+  grid-area: nav;
 }
