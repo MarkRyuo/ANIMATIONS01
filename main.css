@@ -16,7 +16,7 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: px 1fr;
+  grid-template-rows: 100px 1fr;
   grid-template-areas: 
   "Nav Nav"
   "Main Main"
@@ -30,6 +30,8 @@ body {
 
 nav {
   grid-area: Nav;
+  position: fixed;
+  z-index: ;
 }
 
 main {
