@@ -6,7 +6,7 @@ body {
   padding: 0;
   font-family: "Overpass", serif;
   background-color: var(--clr-lavender-purple);
-  padding: ;
+  padding: 0px 10px;
 }
 
 
@@ -31,7 +31,7 @@ nav {
 
 main {
   grid-area: Main;
-  border: 1px solid ;
+  /* border: 1px solid ; */
   margin-top: 75px;
 
   background-color: var(--clr-white-500);
@@ -40,11 +40,10 @@ main {
   grid-template-rows: 1fr;
   column-gap: 10px;
   padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: ;
 }
 
-section {
-  border: 1px solid;
-}
 
 
 
