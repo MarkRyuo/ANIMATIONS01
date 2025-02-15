@@ -33,7 +33,7 @@ main {
   border: 1px solid ;
   margin-top: 75px;
 
-  background-color: ;
+  background-color: var(--cl);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
