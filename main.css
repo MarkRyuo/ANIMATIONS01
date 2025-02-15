@@ -15,7 +15,7 @@ a {
 
 body {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: 
   "Nav Nav"
@@ -31,4 +31,6 @@ nav {
 
 main {
   grid-area: Main;
+  border: 1px solid;
+  height: 50vh;
 }
