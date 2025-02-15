@@ -13,21 +13,13 @@ a {
 }
 
 
-body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100px 1fr;
-  grid-template-areas: 
-  "Nav"
-  "Main";
-
-  padding: 0px 10px ; /*? top right bottom left */}
 
 nav {
   grid-area: Nav;
   position: fixed;
   z-index: 1000;
   top: 0;
+  left: 0;
 }
 
 main {
