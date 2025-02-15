@@ -41,3 +41,7 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
 }
+
+section {
+  border: 1px solid;
+}
