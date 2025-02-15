@@ -21,13 +21,13 @@ body {
   "Nav"
   "Main";
 
-  padding: 0px 10px ; /*? top right bottom left */
-}
+  padding: 0px 10px ; /*? top right bottom left */}
 
 nav {
   grid-area: Nav;
   position: fixed;
   z-index: 1000;
+  top: 0;
 }
 
 main {
