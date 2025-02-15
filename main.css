@@ -23,3 +23,7 @@ body {
 nav {
   grid-area: Nav;
 }
+
+main {
+  grid-area: Main;
+}
