@@ -16,13 +16,10 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 100px repeat(3);
   grid-template-areas: 
-  "Nav Nav"
-  "Main Main"
-  "Main Main"
-  "Main Main"
-  
+  "Nav"
+  "Main"
   ;
 
   padding: 0px 10px 0px 10px ; /*? top right bottom left */
