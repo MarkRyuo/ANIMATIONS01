@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Overpass", serif;
-  background-color: var(--clr-lavender-purple);
+  background-color: #f4f2f0;
   padding: 0px 10px;
 }
 
@@ -41,7 +41,7 @@ main {
   column-gap: 10px;
   padding: 10px;
   border-top-left-radius: 10px;
-  border-top-right-radius: ;
+  border-top-right-radius: 10px;
 }
 
 
