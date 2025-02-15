@@ -16,13 +16,12 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 1;
+  grid-template-rows: 100px 1fr;
   grid-template-areas: 
   "Nav"
-  "Main"
-  ;
+  "Main";
 
-  padding: 0px 10px 0px 10px ; /*? top right bottom left */
+  padding: 0px 10px ; /*? top right bottom left */
 }
 
 nav {
