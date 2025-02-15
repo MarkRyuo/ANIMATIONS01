@@ -16,11 +16,9 @@ a {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px repeat(3, 1fr);
+  grid-template-rows: 100px 1;
   grid-template-areas: 
   "Nav"
-  "Main"
-  "Main"
   "Main"
   ;
 
