@@ -9,7 +9,8 @@ body {
 
 a {
   text-decoration: none;
-  color: ;
+  color: var(--clr-black-500);
+  font-size: 1rem;
 }
 
 
