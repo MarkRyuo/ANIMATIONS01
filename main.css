@@ -26,7 +26,7 @@ nav {
 main {
   grid-area: Main;
   border: 1px solid ;
-  margin-top: ;
+  margin-top: 75px;
 
 
   display: grid;
