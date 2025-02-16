@@ -3,5 +3,11 @@
 
 nav {
   display: flex;
-  justify-content: spa;
+  justify-content: space-between;
+}
+
+
+ul {
+  display: flex ;
+  list-style: none;
 }
