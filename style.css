@@ -33,5 +33,8 @@ li > a {
 }
 
 .btn-start-today {
-  margin-right: 2re,;
+  margin-right: 2rem;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
