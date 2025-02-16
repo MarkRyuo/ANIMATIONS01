@@ -43,7 +43,7 @@ li > a {
 .btn-start-today {
   margin-right: 2rem;
   font-size: 0.8rem;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 15px;
   
   color: var(--clr-white-500);
