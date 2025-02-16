@@ -7,7 +7,8 @@ nav {
   align-items: center;
   border: 1px solid red ;
   height: 6vh;
-
+  background-color: var(--clr-background-color);
+  color: var(--clr-white-500);
   --clr-background-color: #052e25;
 }
 
@@ -26,7 +27,7 @@ ul {
 
 li > a {
   text-decoration: none;
-  color: var(--clr-black-500);
+  color: var(--clr-white-500);
 }
 
 .nav-logo {
@@ -40,6 +41,7 @@ li > a {
   padding: 5px 10px;
   border-radius: 15px;
   
+  color: var(--clr-white-500);
   border: 1px solid var(--clr-white-500) ;
   background-color: inherit;
 }
