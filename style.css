@@ -36,5 +36,8 @@ li > a {
   margin-right: 2rem;
   font-size: 0.8rem;
   padding: 5px 10px;
-  border-radius: 10px;
+  border-radius: 15px;
+  
+  border: 1px solid var(--clr-white-500) ;
+  background-color: inherit;
 }
