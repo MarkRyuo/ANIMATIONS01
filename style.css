@@ -24,5 +24,5 @@ ul {
 
 li > a {
   text-decoration: none;
-  color: var(--);
+  color: var(--clr-black-500);
 }
