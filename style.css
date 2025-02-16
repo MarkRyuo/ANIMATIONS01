@@ -7,6 +7,8 @@ nav {
   align-items: center;
   border: 1px solid red ;
   height: 6vh;
+
+  --clr-background-color: #052e25;
 }
 
 
