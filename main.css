@@ -10,21 +10,6 @@ body {
 }
 
 
-a {
-  text-decoration: none;
-  color: var(--clr-black-500);
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-
-h1 {
-  font-family: "Kanit", sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 0px;
-}
-
-
 
 
 
