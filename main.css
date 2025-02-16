@@ -26,31 +26,6 @@ h1 {
 
 
 
-nav {
-  grid-area: Nav;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-
-  background-color: inherit;
-}
-
-main {
-  grid-area: Main;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  column-gap: 10px;
-  
-  background-color: var(--clr-white-500);
-  margin-top: 75px;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-
 
 
 
