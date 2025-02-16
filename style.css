@@ -17,6 +17,11 @@ ul {
   
 }
 
+.vertical-line {
+  height: 20px;
+  border: 1px solid;
+}
+
 li > a {
   text-decoration: none;
 }
