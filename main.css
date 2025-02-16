@@ -21,6 +21,7 @@ h1 {
   font-family: "Kanit", sans-serif;
   font-size: 3rem;
   font-weight: 700;
+  margin: 0px;
 }
 
 
@@ -37,11 +38,10 @@ nav {
 
 main {
   grid-area: Main;
-  /* border: 1px solid ; */
-  margin-top: 75px;
-
-  background-color: var(--clr-white-500);
   display: grid;
+  
+  background-color: var(--clr-white-500);
+  margin-top: 75px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   column-gap: 10px;
