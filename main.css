@@ -17,6 +17,12 @@ a {
   font-weight: 400;
 }
 
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 
 
 nav {
