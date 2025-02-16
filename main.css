@@ -39,12 +39,12 @@ nav {
 main {
   grid-area: Main;
   display: grid;
-  
-  background-color: var(--clr-white-500);
-  margin-top: 75px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   column-gap: 10px;
+  
+  background-color: var(--clr-white-500);
+  margin-top: 75px;
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
