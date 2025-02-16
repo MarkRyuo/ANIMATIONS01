@@ -26,3 +26,8 @@ li > a {
   text-decoration: none;
   color: var(--clr-black-500);
 }
+
+.nav-logo {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
