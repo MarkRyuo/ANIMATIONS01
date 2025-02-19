@@ -58,7 +58,7 @@ main {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 50vh;
   grid-template-areas: 
   "Hero-Section"
   "Sample-Section"
@@ -80,4 +80,9 @@ main {
   
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.sample-image > img {
+  width: 500px;
 }
