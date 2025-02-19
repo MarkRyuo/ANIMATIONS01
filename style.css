@@ -79,4 +79,5 @@ main {
   height: 60vh;
   width: 100%;
   object-fit: contain;
+  border: 1px solid;
 }
