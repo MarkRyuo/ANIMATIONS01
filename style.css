@@ -64,7 +64,9 @@ main {
 
 .hero-section {
   grid-area: Hero-Section;
-  
+
 }
 
-
+.sample-section {
+  grid-area: Sample-Section;
+}
