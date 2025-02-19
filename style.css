@@ -78,5 +78,5 @@ main {
 .sample-section > img {
   height: 60vh;
   width: 100%;
-  object-fit:cover;
+  object-fit: contain;
 }
