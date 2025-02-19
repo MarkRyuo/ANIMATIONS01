@@ -75,7 +75,7 @@ main {
   grid-area: Sample-Section;
 }
 
-.sample-section > div > img {
+.sample-image > img {
   height: 60vh;
   width: 100%;
   object-fit: contain;
