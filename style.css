@@ -71,6 +71,12 @@ main {
 
 .hero-section {
   grid-area: Hero-Section;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+
 }
 
 .sample-section {
@@ -97,5 +103,5 @@ h1{
 }
 
 h1 > span {
-  
+  font-style: italic  ;
 }
