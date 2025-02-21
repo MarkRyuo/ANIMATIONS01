@@ -26,6 +26,10 @@
 .btn-pricing {
   background-color: var(--clr-white-500);
   color: var(--clr-black-500);
+}
 
+
+.text-were-all {
+  font-size: 1.3rem;
 }
 
