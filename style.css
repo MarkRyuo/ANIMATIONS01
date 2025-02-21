@@ -1,5 +1,8 @@
 
 
+main {
+  background-color: ;
+}
 
 
 nav {
@@ -66,7 +69,6 @@ main {
 
   align-items: center;
   justify-items: center;
-  background-color: var(--clr-background-color);
 }
 
 
