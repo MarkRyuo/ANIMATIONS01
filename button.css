@@ -5,5 +5,5 @@
 
 .btn-subscription {
   background-color: inherit;
-  border: none;
+  border-radius: 10px;
 }
