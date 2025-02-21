@@ -20,10 +20,12 @@
 
   border-radius: 30px;
   border-width: 0.9px;
+  font-weight: 500;
 }
 
 .btn-pricing {
   background-color: var(--clr-white-500);
   color: var(--clr-black-500);
+
 }
 
