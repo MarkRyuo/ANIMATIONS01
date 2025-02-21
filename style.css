@@ -100,10 +100,4 @@ main {
 h1{
   font-size: 4rem;
   text-transform: capitalize;
-  display: block;
-  display: flex;
-  
-  border: 1px solid;
-  height: auto;
-  flex-direction: column;
 }
