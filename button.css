@@ -34,5 +34,8 @@
   color: #ccf0bb;
 }
 
-
+.hero-container-button {
+  display: flex;
+  gap: 1rem;
+}
 
