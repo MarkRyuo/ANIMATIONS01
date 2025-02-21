@@ -58,7 +58,7 @@ main {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 70vh 1fr;
   grid-template-areas: 
   "Hero-Section"
   "Sample-Section"
@@ -72,6 +72,8 @@ main {
 
 .hero-section {
   grid-area: Hero-Section;
+  border: 1px solid ;
+  height: 500px;
 
   display: flex;
   justify-content: center;
@@ -94,7 +96,7 @@ main {
 }
 
 .sample-image > img {
-  width: 60vw;
+  width: 70vw;
   border-radius: 30px;
 }
 
