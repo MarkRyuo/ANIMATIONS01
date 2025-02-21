@@ -101,10 +101,8 @@ h1{
   font-size: 4rem;
   text-transform: capitalize;
   display: flex;
-  height: 200px;
-  word-spacing: 20px;
+  height: auto;
 
-  border: 1px solid;
-  
+  flex-direction: column;
 }
 
