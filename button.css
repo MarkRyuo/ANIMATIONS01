@@ -1,6 +1,9 @@
 
 .btn {
   color: var(--clr-white-500);
+  
+  background-color: inherit;
+  padding: 5px;
 }
 
 .btn-subscription {
@@ -8,4 +11,5 @@
   border-radius: 10px;
   padding: 0px 10px;
   margin-top: 4.5rem;
+  
 }
