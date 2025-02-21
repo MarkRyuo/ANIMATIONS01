@@ -100,8 +100,5 @@ main {
 h1{
   font-size: 4rem;
   text-transform: capitalize;
-}
-
-h1 > span {
   display: flex;
 }
