@@ -72,7 +72,6 @@ main {
 
 .hero-section {
   grid-area: Hero-Section;
-  border: 1px solid ;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -85,9 +84,7 @@ main {
   grid-area: Sample-Section;
 }
 
-.sample-image {
-  border: 1px solid red;
-  
+.sample-image {  
   display: flex;
   justify-content: center;
   align-items: center;
