@@ -1,5 +1,7 @@
 
-
+.btn {
+  color: var(--clr-white-500);
+}
 
 .btn-subscription {
   background-color: inherit;
