@@ -1,6 +1,7 @@
 
 
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -8,7 +9,6 @@ nav {
   height: 6.25vh;
   background-color: var(--clr-background-color);
   color: var(--clr-white-500);
-  --clr-background-color: #052e25;
 
   width: 100%;
   position: fixed;
