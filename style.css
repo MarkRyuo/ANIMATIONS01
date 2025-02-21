@@ -94,7 +94,8 @@ main {
 }
 
 .sample-image > img {
-  width: 60vwpx;
+  width: 60vw;
+  border-radius: ;
 }
 
 
