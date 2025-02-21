@@ -17,5 +17,8 @@
 .btn-pricing, .btn-book-call {
   width: 150px;
   height: 60px;
-  
+
+  border-radius: 30px;
+  border-width: 0.9px;
 }
+
