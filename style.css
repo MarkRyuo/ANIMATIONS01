@@ -100,9 +100,4 @@ main {
 h1{
   font-size: 4rem;
   text-transform: capitalize;
-  display: block;
-  border: 1px solid;
-  height: 200px;
-
-  word-spacing: 100px;
 }
