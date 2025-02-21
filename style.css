@@ -116,3 +116,8 @@ h1{
 .text-buttom {
   font-weight: 300;
 }
+
+
+.sample-section {
+  border: 1px solid red;
+}
