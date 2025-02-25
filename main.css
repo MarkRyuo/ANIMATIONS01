@@ -9,7 +9,11 @@ body {
 
 a {
   color: var(--clr-white-500);
-  
+
+}
+
+header, nav, main, footer {
+  border: 0.5px solid var(--clr-black-500);
 }
 
 
