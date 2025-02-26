@@ -1,0 +1,46 @@
+
+
+
+:root {
+  
+    /* *Black  */
+    --clr-black-500: #000;
+  
+    /** White  */
+    --clr-white-500: #fff;
+  
+    /* *Purple */
+    --clr-Purple-50: #f7eafa;
+    --clr-Purple-100: #edd1f5;
+    --clr-Purple-200: #dda8eb;
+    --clr-Purple-300: #cb7ae1;
+    --clr-Purple-400: #ba50d8;
+    --clr-Purple-500: #a32cc4;
+    --clr-Purple-600: #84249e;
+    --clr-Purple-700: #611a75;
+    --clr-Purple-800: #42124f;
+    --clr-Purple-900: #1f0825;
+    --clr-Purple-950: #110515;
+  
+    --clr-lavender-purple: #E6E6FA;
+  
+  
+    /* *Red */
+  
+    --clr-red-50: #ffdbdb;
+    --clr-red-100: #ffbdbd;
+    --clr-red-200: #ff7a7a;
+    --clr-red-300: #ff3838;
+    --clr-red-400: #f50000;
+    --clr-red-500: #b00000;
+    --clr-red-600: #8f0000;
+    --clr-red-700: #6b0000;
+    --clr-red-800: #470000;
+    --clr-red-900: #240000;
+    --clr-red-950: #0f0000;
+  
+  
+  
+    /*!Background Color  */
+    --clr-bg-wegrow: #052e25;
+}
