@@ -36,7 +36,6 @@ header, nav, main, footer {
   --clr-white-500: #fff ;
 
   /* *Purple */
-  --clr-lavender-purple: #E6E6FA ;
   --clr-Purple-50: #f7eafa;
   --clr-Purple-100: #edd1f5;
   --clr-Purple-200: #dda8eb;
@@ -48,7 +47,10 @@ header, nav, main, footer {
   --clr-Purple-800: #42124f;
   --clr-Purple-900: #1f0825;
   --clr-Purple-950: #110515;
+  
+  --clr-lavender-purple: #E6E6FA ;
 
+  
   /*!Background Color  */
   --clr-bg-wegrow: #052e25;
   
