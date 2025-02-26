@@ -15,11 +15,27 @@
 
 
 
+        /* *Red */
+        
+          --clr-red-50: #ffdbdb;
+          --clr-red-100: #ffbdbd;
+          --clr-red-200: #ff7a7a;
+          --clr-red-300: #ff3838;
+          --clr-red-400: #f50000;
+          --clr-red-500: #b00000;
+          --clr-red-600: #8f0000;
+          --clr-red-700: #6b0000;
+          --clr-red-800: #470000;
+          --clr-red-900: #240000;
+          --clr-red-950: #0f0000;
+
+
+
 
 
   
     /* *Purple */
-    
+
     --clr-Purple-50: #f7eafa;
     --clr-Purple-100: #edd1f5;
     --clr-Purple-200: #dda8eb;
@@ -35,19 +51,6 @@
     --clr-lavender-purple: #E6E6FA;
   
   
-    /* *Red */
-  
-    --clr-red-50: #ffdbdb;
-    --clr-red-100: #ffbdbd;
-    --clr-red-200: #ff7a7a;
-    --clr-red-300: #ff3838;
-    --clr-red-400: #f50000;
-    --clr-red-500: #b00000;
-    --clr-red-600: #8f0000;
-    --clr-red-700: #6b0000;
-    --clr-red-800: #470000;
-    --clr-red-900: #240000;
-    --clr-red-950: #0f0000;
   
   
   
