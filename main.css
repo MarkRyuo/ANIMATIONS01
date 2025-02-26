@@ -62,8 +62,8 @@ header, nav, main, footer {
   --color-red-600: #8f0000;
   --color-red-700: #6b0000;
   --color-red-800: #470000;
-  --color-red-900: #240000;
-  --color-red-950: #0f0000;
+  --clr-red-900: #240000;
+  --clr-red-950: #0f0000;
 
   /*!Background Color  */
   --clr-bg-wegrow: #052e25;
