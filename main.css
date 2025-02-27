@@ -21,7 +21,11 @@ main {
   height: 100%;
 
   grid-template-columns: 1fr ;
-  grid-template-rows: ;
+  grid-template-rows: 1fr 1fr;
+}
+
+section {
+  height: 100px;
 }
 
 
