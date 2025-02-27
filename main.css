@@ -18,6 +18,6 @@ main {
   height: 20vh;
 
   display: grid;
-  
+  height: 100%;
 }
 
