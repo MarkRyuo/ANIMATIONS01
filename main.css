@@ -16,10 +16,8 @@ main {
   border: 0.5px solid var(--clr-black-500);
   width: 100%;
   height: 20vh;
-}
 
-
-
-main {
   display: grid;
+  
 }
+
