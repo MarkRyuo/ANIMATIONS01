@@ -12,11 +12,29 @@ a {
 
 }
 
-header, nav, main, footer {
-  border: 0.5px solid var(--clr-black-500);
+main {
+  border: 4px solid var(--clr-black-500);
   width: 100%;
   height: 20vh;
+
+  display: grid;
+  height: 100%;
+
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr;
 }
+
+section {
+  height: 50vh;
+}
+
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+
 
 
 
